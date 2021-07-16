@@ -1,0 +1,346 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    font-family: Roboto, sans-serif;
+    background: #e2e0e0;
+}
+
+.background {
+    background-color: #E7F5F6;
+    margin: 0 130px;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.carousel-item image {
+    width: 50vw;
+    height: 80vh;
+}
+
+.image {
+    width: 50%;
+    left: 54%;
+    margin-left: 26%;
+    margin-top: 20%;
+}
+
+.centerAlign {
+    display: flex;
+    align-items: center;
+}
+
+.pdl12 {
+    padding-left: 12rem;
+}
+
+.pdr2 {
+    padding-right: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.mgr10 {
+    margin-right: 10rem;
+}
+
+.mgr1 {
+    margin-right: 1rem;
+}
+
+.mgt05 {
+    margin-top: 0.5rem;
+}
+
+.mgl5 {
+    margin-left: 5rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: #fed5c8;
+}
+
+.list {
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.list li {
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+    opacity: .25;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    border-radius: 12px;
+    background: white;
+    transition: transform 1s, opacity 1s;
+}
+
+.list .act {
+    opacity: 1;
+}
+
+.list .prev,
+.list .next {
+    cursor: pointer;
+}
+
+.list .prev {
+    transform: translateX(-220px) scale(.85);
+    opacity: 1;
+}
+
+.list .next {
+    transform: translateX(220px) scale(.85);
+    opacity: 1;
+}
+
+.list .hide {
+    /* opacity: 0.5; */
+    transform: translateX(-420px) scale(.85);
+}
+
+.list .new-next {
+    /* opacity: 0.5; */
+    transform: translateX(420px) scale(.85);
+}
+
+.list .hide,
+.list .new-next {
+    opacity: 1;
+    transition: opacity .5s, transform .5s;
+}
+
+.swipe {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    background-color: green;
+    border-radius: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.rel {
+    position: relative;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: orange;
+    border-radius: 70%;
+    display: inline-block;
+    margin: 12px 10px 0 10px;
+}
+
+.box-content {
+    position: absolute;
+    top: 74%;
+    left: 17%;
+    width: 9rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.start_here {
+    position: absolute;
+    top: 89%;
+    left: 19%;
+    width: 8rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.mtnlogo {
+    position: absolute;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.arrow {
+    position: absolute;
+    top: 80%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.center_item {
+    height: 17rem !important;
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #FFC000;
+}
+
+.mgr20 {
+    margin-right: 20rem;
+}
+
+.center_item .box-content {
+    position: absolute;
+    top: 58%;
+    left: 17%;
+    width: 9rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tile {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 12rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile1 {
+    background-color: hsl(185, 32%, 46%);
+    ;
+    height: 519px;
+    width: 15px;
+    margin-left: 16.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile2 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 21rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile3 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 25.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile4 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 30rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile5 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 34.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile6 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 39rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile7 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 43.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile8 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 48rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile9 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 52.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile10 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 57rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile11 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 61rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile12 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 66rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.tile13 {
+    background-color: hsl(185, 32%, 46%);
+    height: 519px;
+    width: 15px;
+    margin-left: 70.5rem;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.1;
+}

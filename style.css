@@ -344,3 +344,10 @@ body {
     z-index: 0;
     opacity: 0.1;
 }
+
+.paragraph-text {
+    z-index: 0;
+    position: absolute;
+    margin-left: 23rem;
+    margin-top: 6rem;
+}

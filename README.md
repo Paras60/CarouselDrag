@@ -12,14 +12,14 @@ Carousel Drag using Javascript, HTML and CSS
 
 Any Browser
 
-### Installing
+### Steps to run
 
-index.html
+Double click on 'index.html' file
 
 ## Authors
 
 Paras Choudhary 
-choudharyparas61@gmail.com
+(choudharyparas61@gmail.com)
 
 ## Version History
 
